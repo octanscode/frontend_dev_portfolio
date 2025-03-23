@@ -34,7 +34,7 @@ const EducationAndWorkExperience = () => {
               <span>Bengaluru, India</span>
               <span className="text-lg">{"Aug 2022 - Present"}</span>
             </div>
-            <div className="w-[2px] h-[38vh] bg-black ml-6 mr-6 mt-6" />
+            <div className="w-[1px] h-[38vh] bg-black ml-6 mr-6 mt-6" />
             <div className="flex flex-col w-[30%] mt-4">
               <span className="text-xl font-bold">
                 {"Full Stack Developer"}
@@ -103,7 +103,7 @@ const EducationAndWorkExperience = () => {
               <span>Thanjavur, India</span>
               <span className="text-lg">{"July 2018 - May 2022"}</span>
             </div>
-            <div className="w-[2px] h-[30vh] bg-black ml-6 mr-6 mt-2" />
+            <div className="w-[1px] h-[30vh] bg-black ml-6 mr-6 mt-2" />
             <div className="flex flex-col w-[30%] mt-4">
               <span className="text-xl font-bold">
                 {"B.Tech Computer Science and Engineering"}
