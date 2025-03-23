@@ -75,7 +75,7 @@ const EducationAndWorkExperience = () => {
                 10+ hours weekly
               </span>
             </div>
-            <div className="w-[2px] h-[25vh] bg-black ml-6 mr-6 mt-2" />
+            <div className="w-[1px] h-[25vh] bg-black ml-6 mr-6 mt-2" />
             <div className="flex flex-col w-[49.5%] text-left items-left">
               <div>
                 <img
