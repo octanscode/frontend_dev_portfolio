@@ -34,7 +34,10 @@ const EducationAndWorkExperience = () => {
               <span>Bengaluru, India</span>
               <span className="text-lg">{"Aug 2022 - Present"}</span>
             </div>
-            <div className="w-[1px] h-[38vh] bg-black ml-6 mr-6 mt-6" />
+            <div
+              className="h-[38vh] bg-black ml-6 mr-6 mt-6"
+              style={{ width: "1px" }}
+            />
             <div className="flex flex-col w-[30%] mt-4">
               <span className="text-xl font-bold">
                 {"Full Stack Developer"}
@@ -64,20 +67,24 @@ const EducationAndWorkExperience = () => {
         </div>
         <div className="flex justify-center">
           <div className="w-full flex">
-            <div className="w-[15%]">-</div>
-            <div className="flex flex-col w-[36.8%] mt-4 text-right">
-              <span className="text-xl font-bold">
-                {"Application Developer Intern"}
-              </span>
-              <span>
-                Automated a suite of workflows using Python, Pandas and Numpy,
-                reducing manual data processing time by 60%, saving employees
-                10+ hours weekly
-              </span>
+            <div className="flex flex-col w-[49.5%] items-end  mt-4">
+              <div className="flex flex-col w-[60%] text-right items-end">
+                <span className="text-xl font-bold">
+                  {"Application Developer Intern"}
+                </span>
+                <span>
+                  Automated a suite of workflows using Python, Pandas and Numpy,
+                  reducing manual data processing time by 60%, saving employees
+                  10+ hours weekly
+                </span>
+              </div>
             </div>
-            <div className="w-[1px] h-[25vh] bg-black ml-6 mr-6 mt-2" />
-            <div className="flex flex-col w-[49.5%] text-left items-left">
-              <div>
+            <div
+              className="h-[25vh] bg-black ml-6 mr-6 mt-2"
+              style={{ width: "1px" }}
+            />
+            <div className="flex flex-col w-[30%]">
+              <div className="align-right">
                 <img
                   src={IBMLogo}
                   alt="IBM Logo"
@@ -103,7 +110,10 @@ const EducationAndWorkExperience = () => {
               <span>Thanjavur, India</span>
               <span className="text-lg">{"July 2018 - May 2022"}</span>
             </div>
-            <div className="w-[1px] h-[30vh] bg-black ml-6 mr-6 mt-2" />
+            <div
+              className="h-[30vh] bg-black ml-6 mr-6 mt-2"
+              style={{ width: "1px" }}
+            />
             <div className="flex flex-col w-[30%] mt-4">
               <span className="text-xl font-bold">
                 {"B.Tech Computer Science and Engineering"}
